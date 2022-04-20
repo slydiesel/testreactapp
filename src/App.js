@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 function Home() {
-  return <h2>Home</h2>;
+  return <h2>Hello</h2>;
 }
 
 function About() {
@@ -33,7 +33,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Hello</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
